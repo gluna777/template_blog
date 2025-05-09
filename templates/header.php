@@ -9,7 +9,7 @@ include_once("helpers/url.php");
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog Codar</title>
+    <title>Nome do Blog</title>
     <!-- Estilos do Projeto -->
     <link rel="stylesheet" href="<?=$BASE_URL ?>/css/styles.css">
     <!-- Google Fonts -->
@@ -19,5 +19,15 @@ include_once("helpers/url.php");
 </head>
 <body>
     <header>
-        Template cabeçalho
+        <a href="<? $BASE_URL ?>" id="logo">
+            <img src="<?= $BASE_URL ?>/images/logo.png" alt="Nome do Blog">
+        </a>
+        <nav>
+            <ul id="navbar">    
+                <li><a href="<? $BASE_URL ?>">Home</a></li>
+                <li><a href="#">Categorias</a></li>
+                <li><a href="#">Sobre</a></li>
+                <li><a href="<? $BASE_URL ?>contaco.php">Contato</a></li>
+            </ul>
+        </nav>
     </header>
