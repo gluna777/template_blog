@@ -30,7 +30,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color:#161616;
+    background-color: black;
     padding: 20px;
     text-transform: uppercase;
     list-style: none;
@@ -51,7 +51,7 @@ main{
 }
 
 #navbar .nav-link:hover{
-    color: lightgrey;
+    color: grey;
 }
 
 /* HOME */
